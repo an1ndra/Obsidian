@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Terminal/Untitled.md",
+            "file": "Terminal.md",
             "mode": "source"
           }
         }
@@ -19,11 +19,8 @@
         "id": "57824339a2832c36",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Terminal/Untitled.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Untitled.md",
+                "file": "Terminal.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Untitled.md"
+                "file": "Terminal.md"
               }
             }
           }
@@ -127,10 +124,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Terminal.md",
+    "My Note Is Here.md",
     "Terminal/Untitled.md",
     "Untitled.md",
-    "My Note Is Here.md",
-    "Terminal.md",
     "Github.md",
     "202103021917.md"
   ]
