@@ -1,1 +1,1 @@
-tHi sis a terminal program windowsjkiomok
+This is a terminal program windowsjkiomok
