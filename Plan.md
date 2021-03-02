@@ -12,11 +12,11 @@ Terminal
 
 Nodejs
 
-https://youtu.be/RLtyhwFtXQA
+> https://youtu.be/RLtyhwFtXQA
 
 Typescript
 
-https://youtu.be/hKB-YGF14SY
+> https://youtu.be/hKB-YGF14SY
 
 Electric
 
