@@ -1,3 +1,3 @@
 This is my notes
 Obsidian is here my bro
-Do somethi  [[[terminal Note is here]]]
+Do someth  [[[terminal Note is here]]]
