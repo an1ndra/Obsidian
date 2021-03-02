@@ -1,11 +1,11 @@
 # Github Wiki
 
-Check Git version -⇒ git --version
-Clone a repo -⇒ git clone git@github.com:meanindra/git.git
-Show .git directory -⇒ ls -la
-Show status -⇒ git status
-Track new/edited file -⇒ git add index.html
-Commit file -⇒ git commit -m "commit here" -m "description here"
+Check Git version -⇒ `git --version`
+Clone a repo -⇒ ``git clone git@github.com:meanindra/git.git``
+Show .git directory -⇒ `ls -la`
+Show status -⇒ `git status`
+Track new/edited file -⇒ `git add index.html`
+Commit file -⇒ `git commit -m "commit here" -m "description here"`
 Push local repo. -⇒ git push origin master
 Add and Commit file together -⇒ git commit -am "commit"
 Add new remote -⇒ git remote add origin git@github.com:meanindra/git.git
