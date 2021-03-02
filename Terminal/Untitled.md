@@ -11,4 +11,3 @@ This is new tab for ubuntu terminal
 3. Google
 4. Bing
 5. Duckduckgo
-6. 
