@@ -6,7 +6,6 @@
       {
         "id": "1d9cde25748cf5a5",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -16,13 +15,14 @@
         }
       },
       {
-        "id": "113f39844a6844a5",
+        "id": "051d8df2fe37ab4d",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Github Wiki.md",
-            "mode": "preview"
+            "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Vim.md",
+            "mode": "source"
           }
         }
       }

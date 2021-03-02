@@ -42,9 +42,9 @@ Move cursor one word to another word **w**
 
 Move cursor one word to another word with ignore pancuation **W**
 
-Move cursor backwords one word to another word **b**
+Move cursor back words one word to another word **b**
 
-Move cursor backwords one word to another word with ignore pancuation **W**
+Move cursor back words one word to another word with ignore pancuation **W**
 
 Go where want to go **f+!**
 
@@ -56,6 +56,6 @@ Go to start of the line **0**
 
 Go to end of the line **$**
 
-Change curser one braket to opposit braket **%**
+Change cursor one bracket to opposite bracket **%**
 
-Delete everything between breaket **d+%**
+Delete everything between bracket **d+%**
