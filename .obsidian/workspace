@@ -10,7 +10,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki/⛅ AWS.md",
+            "file": "Engineering Wiki/🧰 For Developement.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "829b80a1ad99c6cf",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Engineering Wiki/🧰 For Developement.md",
             "mode": "source"
           }
         }
@@ -77,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Wiki/⛅ AWS.md",
+                "file": "Engineering Wiki/🧰 For Developement.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering Wiki/⛅ AWS.md"
+                "file": "Engineering Wiki/🧰 For Developement.md"
               }
             }
           }
@@ -116,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Engineering Wiki/🧰 For Developement.md",
+    "Engineering Wiki/🟤 Vim.md",
+    "Engineering Wiki/◀️ Backend.md",
+    "Engineering Wiki/🔥Firebase.md",
+    "Engineering Wiki/🔄 React.md",
+    "Engineering Wiki/3rd Sem/Syllabus.md",
     "Engineering Wiki/⛅ AWS.md",
     "Plan.md",
     "Engineering Wiki/Vim.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/React.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Github Wiki.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/For Developement.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/💬 Commands.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/⛅ AWS.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Guidelines.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Vim.md"
+    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/React.md"
   ]
 }
