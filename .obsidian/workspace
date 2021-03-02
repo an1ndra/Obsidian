@@ -14,6 +14,17 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "57824339a2832c36",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Terminal/Untitled.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -40,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Terminal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +118,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,6 +127,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Terminal/Untitled.md",
     "Untitled.md",
     "My Note Is Here.md",
     "Terminal.md",
