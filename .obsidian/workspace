@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/⛅ AWS.md",
+            "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Firebase.md",
             "mode": "source"
           }
         }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/⛅ AWS.md",
+                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Firebase.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/⛅ AWS.md"
+                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Firebase.md"
               }
             }
           }
@@ -127,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/AWS.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Linux Commands.md",
+    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Firebase.md",
     "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Commands.md",
     "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Backend.md",
+    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/AWS.md",
+    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Linux Commands.md",
     "Wiki.md",
     "Untitled.md",
     "Plan.md",
     "List.md",
-    "Assignment.md",
-    "f697772a23bd467bbecf55c85d985db3.md"
+    "Assignment.md"
   ]
 }
