@@ -4,20 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "039dddae2954f42d",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My Note Is Here.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "7ea508b9697975e4",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
