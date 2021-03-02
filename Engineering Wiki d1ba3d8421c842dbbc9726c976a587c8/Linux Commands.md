@@ -1,5 +1,5 @@
 # Useful Linux Commands
-Install AppImage To install AppImage 
+Install AppImage To install AppImage need to change permission allow executiong file as program no to 
 ``
 chmod +x myapplication.AppImage
 ``
