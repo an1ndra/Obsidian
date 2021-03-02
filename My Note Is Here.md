@@ -5,3 +5,5 @@ Terminal very good combo for Linux.
 ``js
     This is a css program
 ``
+sudo apt update
+tutorial
