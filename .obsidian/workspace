@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Linux Commands.md",
+            "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/⛅ AWS.md",
             "mode": "source"
           }
         }
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sudo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,8 +68,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -89,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Linux Commands.md",
+                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/⛅ AWS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Linux Commands.md"
+                "file": "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/⛅ AWS.md"
               }
             }
           }
@@ -128,6 +127,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/AWS.md",
     "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Linux Commands.md",
     "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Commands.md",
     "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/Backend.md",
@@ -136,7 +136,6 @@
     "Plan.md",
     "List.md",
     "Assignment.md",
-    "f697772a23bd467bbecf55c85d985db3.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/For Developement.md"
+    "f697772a23bd467bbecf55c85d985db3.md"
   ]
 }
