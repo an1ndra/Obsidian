@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Github.md",
+            "file": "My Note Is Here.md",
             "mode": "source"
           }
         }
@@ -77,8 +77,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github.md",
-                "collapseAll": false,
+                "file": "My Note Is Here.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "backlinkCollapsed": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github.md"
+                "file": "My Note Is Here.md"
               }
             }
           }
@@ -115,8 +115,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Github.md",
     "My Note Is Here.md",
+    "Github.md",
     "Terminal.md",
     "202103021917.md",
     "Untitled.md"
