@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "My Note Is Here.md",
+            "file": "Terminal/Untitled.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Note Is Here.md",
+                "file": "Terminal/Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Note Is Here.md"
+                "file": "Terminal/Untitled.md"
               }
             }
           }
@@ -115,9 +115,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Untitled.md",
     "My Note Is Here.md",
     "Terminal.md",
-    "Untitled.md",
     "Github.md",
     "202103021917.md"
   ]
