@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b347a74bc2678154",
+        "id": "039dddae2954f42d",
         "type": "leaf",
         "active": true,
         "state": {
@@ -48,9 +48,16 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "72dc20a4f34823f7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Terminal.md"
+              }
             }
           }
         ]
@@ -106,7 +115,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Untitled.md",
-    "My Note Is Here.md"
+    "Terminal.md",
+    "My Note Is Here.md",
+    "202103021917.md",
+    "Untitled.md"
   ]
 }
