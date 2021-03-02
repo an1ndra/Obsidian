@@ -4,4 +4,4 @@ We use AWS to host all of our servers. Please contact @Camille Ricketts to get s
 
 # Authentication
 
-You'll need to have a 2-factor authentication app set up on your phone first.
+- You'll need to have a 2-factor authentication app set up on your phone first.
