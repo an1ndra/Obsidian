@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki/🧰 For Developement.md",
+            "file": "Engineering Wiki/💬 Commands.md",
             "mode": "source"
           }
         }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Wiki/🧰 For Developement.md",
+                "file": "Engineering Wiki/💬 Commands.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering Wiki/🧰 For Developement.md"
+                "file": "Engineering Wiki/💬 Commands.md"
               }
             }
           }
@@ -127,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Engineering Wiki/💬 Commands.md",
+    "Engineering Wiki/🔄 React.md",
     "Engineering Wiki/🧰 For Developement.md",
     "Engineering Wiki/🟤 Vim.md",
     "Engineering Wiki/◀️ Backend.md",
     "Engineering Wiki/🔥Firebase.md",
-    "Engineering Wiki/🔄 React.md",
     "Engineering Wiki/3rd Sem/Syllabus.md",
     "Engineering Wiki/⛅ AWS.md",
     "Plan.md",
-    "Engineering Wiki/Vim.md",
-    "Engineering Wiki d1ba3d8421c842dbbc9726c976a587c8/React.md"
+    "Engineering Wiki/Vim.md"
   ]
 }
