@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f0ce32e13f5c926d",
+        "id": "b347a74bc2678154",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "My Note Is Here.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -70,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Note Is Here.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
