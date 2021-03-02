@@ -1,4 +1,5 @@
 .status-bar {
+    padding-top: 0px;
     max-height: 10px;
-    font-size: 17px;
+    font-size: 10px;
 }
