@@ -92,6 +92,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "39122b28c18c8475",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c95611d9809c4e0b",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
