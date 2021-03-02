@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki/💬 Commands.md",
+            "file": "Engineering Wiki/🔥Firebase.md",
             "mode": "source"
           }
         }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Wiki/💬 Commands.md",
+                "file": "Engineering Wiki/🔥Firebase.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,12 +97,12 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Engineering Wiki/🔥Firebase.md",
     "Engineering Wiki/💬 Commands.md",
     "Engineering Wiki/🔄 React.md",
     "Engineering Wiki/🧰 For Developement.md",
     "Engineering Wiki/🟤 Vim.md",
     "Engineering Wiki/◀️ Backend.md",
-    "Engineering Wiki/🔥Firebase.md",
     "Engineering Wiki/3rd Sem/Syllabus.md",
     "Engineering Wiki/⛅ AWS.md",
     "Plan.md",
