@@ -6,25 +6,27 @@
       {
         "id": "62063a106c41e60f",
         "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Engineering Wiki/🔄 React.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "e99c07f298d281a2",
-        "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki/🔥Firebase.md",
+            "file": "Engineering Wiki/😈 Github Wiki.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "f1d24cde6573fe9b"
+      },
+      {
+        "id": "e99c07f298d281a2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Engineering Wiki/😈 Github Wiki.md",
+            "mode": "preview"
+          }
+        },
+        "group": "f1d24cde6573fe9b"
       }
     ],
     "direction": "vertical"
@@ -80,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Wiki/🔥Firebase.md",
+                "file": "Engineering Wiki/😈 Github Wiki.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Engineering Wiki/🔥Firebase.md",
-    "Engineering Wiki/🔄 React.md",
-    "Engineering Wiki/💬 Commands.md",
-    "Engineering Wiki/🧰 For Developement.md",
-    "Engineering Wiki/🟤 Vim.md",
-    "Engineering Wiki/◀️ Backend.md",
-    "Engineering Wiki/3rd Sem/Syllabus.md",
+    "Engineering Wiki/😈 Github Wiki.md",
+    "Engineering Wiki/Reviews.md",
+    "Engineering Wiki/Redis.md",
     "Engineering Wiki/⛅ AWS.md",
-    "Plan.md",
-    "Engineering Wiki/Vim.md"
+    "Engineering Wiki/3rd Sem/Syllabus.md",
+    "Engineering Wiki/◀️ Backend.md",
+    "Engineering Wiki/🔄 React.md",
+    "Engineering Wiki/🧰 For Developement.md",
+    "Engineering Wiki/💬 Commands.md",
+    "Engineering Wiki/🔥Firebase.md"
   ]
 }
