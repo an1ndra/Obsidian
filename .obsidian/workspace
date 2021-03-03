@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "Engineering Wiki/🔥 Assignment.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "right": {
     "id": "e39426e7a0a8a916",
