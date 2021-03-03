@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,6 +124,7 @@
   },
   "lastOpenFiles": [
     "Engineering Wiki/🔥 Assignment.md",
+    "Pasted image 20210303141828.png",
     "Engineering Wiki/🧰 For Developement.md",
     "Engineering Wiki/Linux Commands.md",
     "Engineering Wiki/3rd Sem/Syllabus.md",
@@ -132,7 +132,6 @@
     "Assignment.md",
     "Engineering Wiki/😈 Github Wiki.md",
     "Engineering Wiki/Reviews.md",
-    "Engineering Wiki/Redis.md",
-    "Engineering Wiki/⛅ AWS.md"
+    "Engineering Wiki/Redis.md"
   ]
 }
