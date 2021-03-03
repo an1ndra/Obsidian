@@ -4,13 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "c389e31e17f17cca",
+        "id": "b73669b925a54d9e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Engineering Wiki/🔥 Assignment.md",
+            "mode": "source"
+          }
+        },
+        "group": "21ab13c3fb17cbfa"
+      },
+      {
+        "id": "e87c5126a32e6659",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Engineering Wiki/🔥 Assignment.md",
+            "mode": "preview"
+          }
+        },
+        "group": "21ab13c3fb17cbfa"
       }
     ],
     "direction": "vertical"
@@ -74,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Engineering Wiki/🔥 Assignment.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Engineering Wiki/🔥 Assignment.md"
+              }
             }
           },
           {
@@ -117,15 +136,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Graph Theory fbf72f952055462eac7d142c3e859d54/Untitled 3.png.md",
-    "Engineering Wiki/Theory.md",
     "Engineering Wiki/🔥 Assignment.md",
+    "Engineering Wiki/◀️ Backend.md",
+    "Engineering Wiki/Theory.md",
+    "Graph Theory fbf72f952055462eac7d142c3e859d54/Untitled 3.png.md",
     "Pasted image 20210303141828.png",
     "Engineering Wiki/🧰 For Developement.md",
     "Engineering Wiki/Linux Commands.md",
     "Engineering Wiki/3rd Sem/Syllabus.md",
     "🔥 Assignment.md",
-    "Assignment.md",
-    "Engineering Wiki/😈 Github Wiki.md"
+    "Assignment.md"
   ]
 }
