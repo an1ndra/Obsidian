@@ -4,26 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b136d0957f41f426",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Engineering Wiki/🔥 Assignment.md",
-            "mode": "source"
-          }
-        },
-        "group": "69378b8ae4172f76"
-      },
-      {
-        "id": "3239224a867175f9",
+        "id": "c389e31e17f17cca",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "graph",
           "state": {}
-        },
-        "group": "69378b8ae4172f76"
+        }
       }
     ],
     "direction": "vertical"
@@ -130,6 +117,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Graph Theory fbf72f952055462eac7d142c3e859d54/Untitled 3.png.md",
+    "Engineering Wiki/Theory.md",
     "Engineering Wiki/🔥 Assignment.md",
     "Pasted image 20210303141828.png",
     "Engineering Wiki/🧰 For Developement.md",
@@ -137,8 +126,6 @@
     "Engineering Wiki/3rd Sem/Syllabus.md",
     "🔥 Assignment.md",
     "Assignment.md",
-    "Engineering Wiki/😈 Github Wiki.md",
-    "Engineering Wiki/Reviews.md",
-    "Engineering Wiki/Redis.md"
+    "Engineering Wiki/😈 Github Wiki.md"
   ]
 }
