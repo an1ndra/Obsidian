@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "112941473abd12ec",
+        "id": "b136d0957f41f426",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Engineering Wiki/🔥 Assignment.md",
-            "mode": "source"
-          }
-        },
-        "group": "b8cf3f35f0911365"
-      },
-      {
-        "id": "b136d0957f41f426",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Engineering Wiki/🔥 Assignment.md",
             "mode": "preview"
           }
-        },
-        "group": "b8cf3f35f0911365"
+        }
       }
     ],
     "direction": "vertical"
@@ -74,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "right": {
     "id": "e39426e7a0a8a916",
