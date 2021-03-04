@@ -85,6 +85,8 @@ It can be seen from the above example that on increasing the number of frames wh
 
 
 10. Distinguish between SRAM and DRAM. Design the bus connection with a CPU to contact four RAM chips of size 256 x 8 bits each and a ROM chip of 512 x 8 bit size. Assume that CPU has 8-bit data bus and 16-bit address bus.
+		
+		
 11. Write short notes on any three of the following:
 
 	a) Cache replacement policy
