@@ -90,7 +90,10 @@ It can be seen from the above example that on increasing the number of frames wh
 		| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 		| Transistors are used to store information in SRAM.       | Capacitors are used to store data in DRAM.                                                            |
 		| Capacitors are not used hence no refreshing is required. | To store information for a longer time, contents of the capacitor needs to be refreshed periodically. |
-		|                                                          |                                                                                                       |
+		| SRAM is faster as compared to DRAM.                      | DRAM provides slow access speeds.                                                                     |
+		| These are expensive.                                     | These are cheaper.                                                                                    |
+		| SRAMs are low density devices.                           | DRAMs are high density devices.                                                                       |
+		| These are used in cache memories.                        | These are used in main memories.                                                                                                      |
 		
 11. Write short notes on any three of the following:
 
