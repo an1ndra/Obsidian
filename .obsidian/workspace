@@ -128,8 +128,17 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "2326b59d4eca867f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
