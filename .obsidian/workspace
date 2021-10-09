@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker cheat sheet.md",
+            "file": "Math.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker cheat sheet.md",
+                "file": "Math.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "f71b3ca59ed0421a",
   "lastOpenFiles": [
+    "Math.md",
+    "Makaut.md",
+    "html_course_chapter_0.pdf",
+    "Git Note.md",
     "Docker cheat sheet.md",
     "BGMI Admin App Problem And Fixes.md",
     "Apps.md",
     "Linux/Portainer.md",
     "Linux/Untitled.md",
-    "Linux/Problems & solutions.md",
-    "5th Sem Subject/OOP.md",
-    "Untitled.md",
-    "5th Sem Subject/OS.md",
-    "Linux/Tmux.md"
+    "Linux/Problems & solutions.md"
   ]
 }
