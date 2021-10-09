@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math.md",
+            "file": "test.md",
             "mode": "source"
           }
         }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262,
-    "collapsed": true
+    "width": 262
   },
   "right": {
     "id": "e282ccfc6d168054",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -109,6 +108,8 @@
   },
   "active": "f71b3ca59ed0421a",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Android/Android Studio Problems.md",
     "Math.md",
     "Makaut.md",
     "html_course_chapter_0.pdf",
@@ -116,8 +117,6 @@
     "Docker cheat sheet.md",
     "BGMI Admin App Problem And Fixes.md",
     "Apps.md",
-    "Linux/Portainer.md",
-    "Linux/Untitled.md",
-    "Linux/Problems & solutions.md"
+    "Linux/Portainer.md"
   ]
 }
