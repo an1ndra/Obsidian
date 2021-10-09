@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "test.md",
+            "file": "Untitled 2.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,7 @@
   },
   "active": "f71b3ca59ed0421a",
   "lastOpenFiles": [
+    "Untitled 2.md",
     "Untitled.md",
     "Android/Android Studio Problems.md",
     "Math.md",
@@ -116,7 +117,6 @@
     "Git Note.md",
     "Docker cheat sheet.md",
     "BGMI Admin App Problem And Fixes.md",
-    "Apps.md",
-    "Linux/Portainer.md"
+    "Apps.md"
   ]
 }
