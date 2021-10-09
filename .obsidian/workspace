@@ -1,46 +1,32 @@
 {
   "main": {
-    "id": "ee75dc9b90e223bf",
+    "id": "e05039cf01e15a0d",
     "type": "split",
     "children": [
       {
-        "id": "1341f26f8f101739",
+        "id": "f71b3ca59ed0421a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Engineering Wiki/🔥 Assignment.md",
+            "file": "Linux/Portainer.md",
             "mode": "source"
           }
-        },
-        "group": "c3637eb69c96b39f"
-      },
-      {
-        "id": "44b1a98ef9b6d627",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Engineering Wiki/🔥 Assignment.md",
-            "mode": "preview"
-          }
-        },
-        "group": "c3637eb69c96b39f"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "26617574dffb414d",
+    "id": "15a9013d93ad0d2a",
     "type": "split",
     "children": [
       {
-        "id": "190aef6f670f0a42",
+        "id": "16c52a38f9673ad6",
         "type": "tabs",
         "children": [
           {
-            "id": "2bdcddc2b05df8d0",
+            "id": "ecc97eac21c8c17c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +34,12 @@
             }
           },
           {
-            "id": "ae8315c1fbefc705",
+            "id": "1a44509653789f95",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "java notes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,45 +49,46 @@
             }
           },
           {
-            "id": "5939a24eba330395",
+            "id": "fcad5d2a4be16bdc",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 262
   },
   "right": {
-    "id": "e39426e7a0a8a916",
+    "id": "e282ccfc6d168054",
     "type": "split",
     "children": [
       {
-        "id": "393f05db881f5abe",
+        "id": "d802545bcde7c903",
         "type": "tabs",
         "children": [
           {
-            "id": "3ee643941fb07085",
+            "id": "1acb8cd1af5e86dc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Wiki/🔥 Assignment.md",
-                "collapseAll": true,
-                "extraContext": false,
+                "file": "Linux/Portainer.md",
+                "collapseAll": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3b8feaacc2e16717",
+            "id": "d636584863a46e0a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -110,51 +97,26 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "c6e86c2cdc7e9edc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Engineering Wiki/🔥 Assignment.md"
-              }
-            }
-          },
-          {
-            "id": "ca5499edbdb8d844",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2326b59d4eca867f",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 506.99993896484375,
     "collapsed": true
   },
+  "active": "f71b3ca59ed0421a",
   "lastOpenFiles": [
-    "Engineering Wiki/🔥 Assignment.md",
-    "Tools For Developement 0e2ed2fbd09243099ddd6e37f063476b/Oh my zsh 0317688aebd04da1b3a6ddac5689cf85.md",
-    "Engineering Wiki/◀️ Backend.md",
-    "Engineering Wiki/Theory.md",
-    "Graph Theory fbf72f952055462eac7d142c3e859d54/Untitled 3.png.md",
-    "Pasted image 20210303141828.png",
-    "Engineering Wiki/🧰 For Developement.md",
-    "Engineering Wiki/Linux Commands.md",
-    "Engineering Wiki/3rd Sem/Syllabus.md",
-    "🔥 Assignment.md"
+    "Linux/Portainer.md",
+    "Linux/Untitled.md",
+    "Linux/Problems & solutions.md",
+    "5th Sem Subject/OOP.md",
+    "Untitled.md",
+    "5th Sem Subject/OS.md",
+    "Docker cheat sheet.md",
+    "BGMI Admin App Problem And Fixes.md",
+    "Apps.md",
+    "Linux/Tmux.md"
   ]
 }

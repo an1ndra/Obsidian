@@ -1,1 +1,9 @@
-{"items":[{"type":"file","title":"🔥 Assignment","path":"Engineering Wiki/🔥 Assignment.md"}]}
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "DSA Notes",
+      "path": "DSA Learning/8 weeks DSA course plan.md"
+    }
+  ]
+}
