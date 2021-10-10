@@ -1,1 +1,1 @@
-https://guides.github.com/introduction/flow/
+(Git Brunches Model) [https://guides.github.com/introduction/flow/]
