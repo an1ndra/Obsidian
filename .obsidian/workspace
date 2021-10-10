@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f71b3ca59ed0421a",
+        "id": "6e1fc43bc78af068",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -106,8 +106,9 @@
     "width": 506.99993896484375,
     "collapsed": true
   },
-  "active": "f71b3ca59ed0421a",
+  "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Git/Git Brunches Model.md",
     "Untitled.md",
     "Engineering Wiki/😈 Github Wiki.md",
     "Linux/Linux.md",
@@ -116,7 +117,6 @@
     "test.md",
     "Untitled 2.md",
     "Android/Android Studio Problems.md",
-    "Math.md",
-    "Makaut.md"
+    "Math.md"
   ]
 }
