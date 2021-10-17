@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "terminal",
+                "query": "android",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
