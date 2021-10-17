@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Apps.md",
+            "file": "Android/Android Studio Problems.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apps.md",
+                "file": "Android/Android Studio Problems.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -109,6 +109,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Studio Problems.md",
     "Apps.md",
     "Linux/Linux.md",
     "Git/Git Brunches Model.md",
@@ -117,7 +118,6 @@
     "Git Note.md",
     "test.md",
     "Untitled 2.md",
-    "Android/Android Studio Problems.md",
     "Math.md"
   ]
 }
