@@ -8,4 +8,5 @@ small
 toward
 skin
 planet
-bet
+between
+hand
