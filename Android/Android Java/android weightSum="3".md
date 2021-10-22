@@ -2,41 +2,20 @@ Per documentation, `android:weightSum` defines the maximum weight sum, and is ca
 
 Let's consider an example with a `LinearLayout` with horizontal orientation and 3 `ImageViews` inside it. Now we want these `ImageViews` always to take equal space. To acheive this, you can set the `layout_weight` of each `ImageView` to 1 and the `weightSum` will be calculated to be equal to 3 as shown in the comment.
 ```xml
-```xml
- <LinearLayout
-                android:layout_width="500dp"
-                android:layout_height="20dp" >
+	<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    <!-- android:weightSum="3" -->
+    android:orientation="horizontal"
+    android:layout_gravity="center">
 
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="3"
-                    android:background="@android:color/holo_green_light"
-                    android:gravity="center"
-                    android:text="30%"
-                    android:textColor="@android:color/white" >
-                </TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:background="@android:color/holo_blue_bright"
-                    android:gravity="center"
-                    android:text="20%"
-                    android:textColor="@android:color/white" >
-                </TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="5"
-                    android:background="@android:color/holo_orange_dark"
-                    android:gravity="center"
-                    android:text="50%"
-                    android:textColor="@android:color/white" >
-                </TextView>
- </LinearLayout>
+   <ImageView
+       android:layout_height="wrap_content"       
+       android:layout_weight="1"
+       android:layout_width="0dp"/>
+  .....
 ```
+`weightSum` is useful for having the layout rendered correctly for any device, which will not happen if you set width and height directly.
+
 Result:
 ![[Pasted image 20211022185134.png]]
