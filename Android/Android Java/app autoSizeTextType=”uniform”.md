@@ -1,0 +1,1 @@
+**app:autoSizeTextType=”uniform”** by using this attribute we are simply resizing the TextView uniformly.
