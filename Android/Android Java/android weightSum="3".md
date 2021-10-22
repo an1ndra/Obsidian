@@ -38,3 +38,5 @@ Let's consider an example with a `LinearLayout` with horizontal orientation and 
                 </TextView>
  </LinearLayout>
 ```
+Result:
+![[Pasted image 20211022185134.png]]
