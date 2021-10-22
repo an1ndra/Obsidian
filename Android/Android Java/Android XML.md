@@ -5,4 +5,3 @@ This property helps us to take more control over our TextViews for customizing. 
 > Size of Step means , each increment and decrement will happen according to the size of the step.
 
 This can be done by adding the following in TextView
-android:autoSizeStepGranularity="2sp"
