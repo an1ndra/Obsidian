@@ -17,5 +17,5 @@ Let's consider an example with a `LinearLayout` with horizontal orientation and 
 ```
 `weightSum` is useful for having the layout rendered correctly for any device, which will not happen if you set width and height directly.
 
-Result:
+Example:
 ![[Pasted image 20211022185134.png]]
