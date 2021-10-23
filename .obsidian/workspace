@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/app autoSizeTextType=”uniform”.md",
+            "file": "android.content.ClipData.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/app autoSizeTextType=”uniform”.md",
+                "file": "android.content.ClipData.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
-    "Android/Android Java/app autoSizeTextType=”uniform”.md",
-    "Android/Android Java/android autoSizeStepGranularity=\"2sp\".md",
-    "Android/Android Java/android weightSum=\"3\".md",
+    "android.content.ClipData.md",
+    "Android/Android XML/android autoSizeStepGranularity=\"2sp\".md",
+    "Android/Android XML/app autoSizeTextType=”uniform”.md",
     "Android/Android Studio Problems.md",
+    "Android/Android XML/android weightSum=\"3\".md",
     "Apps.md",
     "Linux/Linux.md",
     "Git/Git Brunches Model.md",
     "Engineering Wiki/😈 Github Wiki.md",
-    "Git Note.md",
-    "test.md"
+    "Git Note.md"
   ]
 }
