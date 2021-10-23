@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "android.content.ClipData.md",
+            "file": "Android/Android Java/android.content.ClipData.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "android.content.ClipData.md",
+                "file": "Android/Android Java/android.content.ClipData.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
-    "android.content.ClipData.md",
+    "Android/Android Java/android.content.ClipData.md",
     "Android/Android XML/android autoSizeStepGranularity=\"2sp\".md",
     "Android/Android XML/app autoSizeTextType=”uniform”.md",
     "Android/Android Studio Problems.md",

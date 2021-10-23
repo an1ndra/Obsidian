@@ -1,0 +1,1 @@
+Example: https://www.includehelp.com/android/use-clipboardmanager-to-clipdata.aspx
