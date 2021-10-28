@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/Constructor.md",
+            "file": "Linux/class home work.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/Constructor.md",
+                "file": "Linux/class home work.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,8 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Linux/class home work.md",
+    "Linux/basic-unix.pdf",
     "Android/Android Java/Constructor.md",
     "Android/Android Java/ArrayList.md",
     "Android/Android Java/android.content.ClipData.md",
@@ -115,8 +117,6 @@
     "Android/Android Java/@Nullable.md",
     "Android/Android Java/@NotNull.md",
     "Android/Android Java/@Override.md",
-    "Linux/Linux.md",
-    "Git/Git Brunches Model.md",
-    "Android/Android Java/extends.md"
+    "Linux/Linux.md"
   ]
 }
