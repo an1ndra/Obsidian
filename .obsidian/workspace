@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android XML/XML Attributes of ListView.md",
+            "file": "Android/Android Java/ArrayList.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android XML/XML Attributes of ListView.md",
+                "file": "Android/Android Java/ArrayList.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Java/ArrayList.md",
+    "Android/Android Java/Constructor.md",
+    "Android/Android Java/@NonNull.md",
+    "Android/Android Java/@Override.md",
     "Android/Android XML/XML Attributes of ListView.md",
     "Linux/Linux.md",
     "Android/Android Java/android.content.ClipData.md",
     "Android/Android XML/android autoSizeStepGranularity=\"2sp\".md",
     "Android/Android XML/app autoSizeTextType=”uniform”.md",
-    "Android/Android Studio Problems.md",
-    "Android/Android XML/android weightSum=\"3\".md",
-    "Apps.md",
-    "Git/Git Brunches Model.md",
-    "Engineering Wiki/😈 Github Wiki.md"
+    "Android/Android Studio Problems.md"
   ]
 }
