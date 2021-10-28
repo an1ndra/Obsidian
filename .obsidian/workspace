@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/void.md",
+            "file": "Linux/class home work.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/void.md",
+                "file": "Linux/class home work.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,8 +108,8 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
-    "Android/Android Java/void.md",
     "Linux/class home work.md",
+    "Android/Android Java/void.md",
     "Linux/basic-unix.pdf",
     "Android/Android Java/Constructor.md",
     "Android/Android Java/ArrayList.md",
