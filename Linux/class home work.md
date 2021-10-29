@@ -3,8 +3,8 @@
 3. write a programme to display n number of elements where memory should be allocated dynamically
 4. search an element in array using dynamic memory allocation https://www.youtube.com/watch?v=iGqCHrdUBI0
 5. write a programme to create a circular linked list https://www.javatpoint.com/program-to-create-and-display-a-circular-linked-list
-6. witte a c programme to count the number of nodes in a circular linked list https://www.geeksforgeeks.org/count-nodes-circular-linked-list/
-7. implement a circular queue using array and linked list
+6. Witte a c programme to count the number of nodes in a circular linked list https://www.geeksforgeeks.org/count-nodes-circular-linked-list/
+7. Implement a circular queue using array and linked list https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/
 8. write a programme to turn a postfix to infix expression
 9. implement doubly ended queue using linked list
 10. implement a queue using stack
