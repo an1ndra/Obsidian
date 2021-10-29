@@ -1,7 +1,7 @@
 1. Write a c programme using gedit to find a factorial of a number
 2. find the sum of the bifonnaci series upto the nth term
 3. write a programme to display n number of elements where memory should be allocated dynamically
-4. search an element in array using dynamic memory allocation
+4. search an element in array using dynamic memory allocation https://www.youtube.com/watch?v=iGqCHrdUBI0
 5. write a programme to create a circular linked list
 6. witte a c programme to count the number of nodes in a circular linked list
 7. implement a circular queue using array and linked list
