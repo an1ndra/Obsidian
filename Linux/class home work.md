@@ -7,7 +7,7 @@
 7. Implement a circular queue using array and linked list https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/
 8. write a programme to turn a postfix to infix expression https://www.geeksforgeeks.org/postfix-to-infix/
 9. implement doubly ended queue using linked list https://www.w3spoint.com/java-deque-implementation-using-doubly-linked-list
-10. implement a queue using stack
+10. implement a queue using stack https://www.geeksforgeeks.org/queue-using-stacks/
 11. simulate fcfs algo in c -- to calculate the avg of wait time and the arrival time = 0;
 waiting time of the second process is the burst time of the first process ;
 thrid process is the sum of burst time of 1+2 process;
