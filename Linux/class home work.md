@@ -6,7 +6,7 @@
 6. Witte a c programme to count the number of nodes in a circular linked list https://www.geeksforgeeks.org/count-nodes-circular-linked-list/
 7. Implement a circular queue using array and linked list https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/
 8. Write a programme to turn a postfix to infix expression https://www.geeksforgeeks.org/postfix-to-infix/
-9. Implement doubly ended queue using linked list https://www.w3spoint.com/java-deque-implementation-using-doubly-linked-list
+9. Implement double ended queue using linked list https://www.w3spoint.com/java-deque-implementation-using-doubly-linked-list
 10. Implement a queue using stack https://www.geeksforgeeks.org/queue-using-stacks/
 11. simulate fcfs algo in c -- to calculate the avg of wait time and the arrival time = 0;
 waiting time of the second process is the burst time of the first process ;
