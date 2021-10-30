@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/class home work.md",
+            "file": "Linux/RR.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/class home work.md",
+                "file": "Linux/RR.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Linux/RR.md",
     "Linux/class home work.md",
     "Android/Android Java/void.md",
     "Linux/basic-unix.pdf",
@@ -116,7 +117,6 @@
     "Android/Android Java/android.content.ClipData.md",
     "Android/Android Java/@override.md",
     "Android/Android Java/@Nullable.md",
-    "Android/Android Java/@NotNull.md",
-    "Android/Android Java/@Override.md"
+    "Android/Android Java/@NotNull.md"
   ]
 }
