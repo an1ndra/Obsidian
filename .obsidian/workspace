@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/RR.md",
+            "file": "Android/Android Java/static.md",
             "mode": "source"
           }
         }
@@ -60,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 347
   },
   "right": {
     "id": "e282ccfc6d168054",
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/RR.md",
+                "file": "Android/Android Java/static.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Java/static.md",
+    "Android/Android Java/super.md",
+    "Android/Android Java/this.md",
     "Linux/RR.md",
     "Linux/class home work.md",
     "Android/Android Java/void.md",
     "Linux/basic-unix.pdf",
     "Android/Android Java/Constructor.md",
     "Android/Android Java/ArrayList.md",
-    "Android/Android Java/android.content.ClipData.md",
-    "Android/Android Java/@override.md",
-    "Android/Android Java/@Nullable.md",
-    "Android/Android Java/@NotNull.md"
+    "Android/Android Java/android.content.ClipData.md"
   ]
 }
