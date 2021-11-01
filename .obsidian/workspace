@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/Untitled.md",
+            "file": "Android/Android Java/Graph.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/Untitled.md",
+                "file": "Android/Android Java/Graph.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,7 +108,8 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
-    "Android/Android Java/Untitled.md",
+    "Android/Android Java/Graph.md",
+    "Android/Android Java/LinkedList.md",
     "Android/Android Java/static.md",
     "Android/Android Java/super.md",
     "Android/Android Java/this.md",
@@ -116,7 +117,6 @@
     "Linux/class home work.md",
     "Android/Android Java/void.md",
     "Linux/basic-unix.pdf",
-    "Android/Android Java/Constructor.md",
-    "Android/Android Java/ArrayList.md"
+    "Android/Android Java/Constructor.md"
   ]
 }
