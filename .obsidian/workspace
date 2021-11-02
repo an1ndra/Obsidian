@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/finalize().md",
+            "file": "Android/Android Studio Problems.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/finalize().md",
+                "file": "Android/Android Studio Problems.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,8 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Studio Problems.md",
+    "Android/Untitled.md",
     "Android/Android Java/finalize().md",
     "Android/Android Java/Graph.md",
     "Android/Android Java/LinkedList.md",
@@ -115,8 +117,6 @@
     "Android/Android Java/super.md",
     "Android/Android Java/this.md",
     "Linux/RR.md",
-    "Linux/class home work.md",
-    "Android/Android Java/void.md",
-    "Linux/basic-unix.pdf"
+    "Linux/class home work.md"
   ]
 }
