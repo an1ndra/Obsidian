@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Studio Problems.md",
+            "file": "Android/Android Java/Move one Activity to another Activity.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Studio Problems.md",
+                "file": "Android/Android Java/Move one Activity to another Activity.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Java/Move one Activity to another Activity.md",
     "Android/Android Studio Problems.md",
     "Android/Untitled.md",
     "Android/Android Java/finalize().md",
@@ -116,7 +117,6 @@
     "Android/Android Java/static.md",
     "Android/Android Java/super.md",
     "Android/Android Java/this.md",
-    "Linux/RR.md",
-    "Linux/class home work.md"
+    "Linux/RR.md"
   ]
 }
