@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Library/3. Glide.md",
+            "file": "Android/Android Library/6. Room.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Library/3. Glide.md",
+                "file": "Android/Android Library/6. Room.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Library/6. Room.md",
     "Android/Android Library/3. Glide.md",
     "Android/Android Library/2. Picasso.md",
     "Android/Android Library/1. Retrofit.md",
@@ -115,7 +116,6 @@
     "Android/Android Java/LinkedList.md",
     "Android/Android Java/Graph.md",
     "Android/Android Java/super.md",
-    "Android/Android Studio Problems.md",
-    "Linux/Portainer.md"
+    "Android/Android Studio Problems.md"
   ]
 }
