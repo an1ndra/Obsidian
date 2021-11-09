@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Library/4. CAMViews.md",
-            "mode": "preview"
+            "file": "Android/Android Library/1. Retrofit.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Library/4. CAMViews.md",
+                "file": "Android/Android Library/1. Retrofit.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,12 +107,12 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
-    "Android/Android Library/4. CAMViews.md",
-    "Android/Android Library/3. Glide.md",
-    "Android/Android Library/6. Room.md",
-    "Android/Android Library/2. Picasso.md",
     "Android/Android Library/1. Retrofit.md",
+    "Android/Android Library/2. Picasso.md",
+    "Android/Android Library/3. Glide.md",
+    "Android/Android Library/4. CAMViews.md",
     "Android/Android Library/5. ExoPlayer.md",
+    "Android/Android Library/6. Room.md",
     "Android/Android Java/LinkedList.md",
     "Android/Android Java/Graph.md",
     "Android/Android Java/super.md",
