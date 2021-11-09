@@ -84,7 +84,7 @@ public class GFG {
  
 
 -   Java
-```
+```java
 // Java program to change elements
 // in a LinkedList
 	
