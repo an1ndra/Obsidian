@@ -6405,7 +6405,7 @@ var require_utils2 = __commonJS({
   "node_modules/obsidian-community-lib/dist/utils.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.addChangelogButton = exports.ChangelogModal = exports.linkedQ = exports.openOrSwitch = exports.createNewMDNote = exports.hoverPreview = exports.isInVault = exports.getSelectionFromCurrFile = exports.getSelectionFromEditor = exports.copy = exports.getAvailablePathForAttachments = exports.base64ToArrayBuffer = exports.addFeatherIcon = exports.addAllFeatherIcons = exports.wait = void 0;
+    exports.waitForResolvedLinks = exports.resolvedLinksComplete = exports.addRenderedMarkdownButton = exports.RenderedMarkdownModal = exports.saveViewSide = exports.openView = exports.linkedQ = exports.openOrSwitch = exports.stripMD = exports.addMD = exports.createNewMDNote = exports.hoverPreview = exports.isInVault = exports.getSelectionFromCurrFile = exports.getSelectionFromEditor = exports.copy = exports.getAvailablePathForAttachments = exports.base64ToArrayBuffer = exports.addFeatherIcon = exports.addAllFeatherIcons = exports.wait = void 0;
     var feather = require_feather();
     var obsidian_1 = require("obsidian");
     function wait2(delay) {
@@ -6507,14 +6507,24 @@ var require_utils2 = __commonJS({
       });
     }
     exports.createNewMDNote = createNewMDNote;
+    var addMD = (noteName) => {
+      let withMD = noteName.slice();
+      if (!withMD.endsWith(".md")) {
+        withMD += ".md";
+      }
+      return withMD;
+    };
+    exports.addMD = addMD;
+    var stripMD = (noteName) => noteName.split(".md").slice(0, -1).join(".md");
+    exports.stripMD = stripMD;
     function openOrSwitch3(_0, _1, _2) {
       return __async(this, arguments, function* (app, dest, event, options = { createNewFile: true }) {
         const { workspace } = app;
-        const currFile = workspace.getActiveFile();
-        let destFile = app.metadataCache.getFirstLinkpathDest(dest, currFile.path);
+        const destStripped = (0, exports.stripMD)(dest);
+        let destFile = app.metadataCache.getFirstLinkpathDest(destStripped, "");
         if (!destFile) {
           if (options.createNewFile) {
-            destFile = yield createNewMDNote(app, dest, currFile.path);
+            destFile = yield createNewMDNote(app, destStripped);
           } else
             return;
         }
@@ -6522,7 +6532,7 @@ var require_utils2 = __commonJS({
         workspace.iterateAllLeaves((leaf) => {
           var _a, _b;
           if (leaf.view instanceof obsidian_1.MarkdownView) {
-            if (((_b = (_a = leaf.view) == null ? void 0 : _a.file) == null ? void 0 : _b.basename) === dest) {
+            if (((_b = (_a = leaf.view) == null ? void 0 : _a.file) == null ? void 0 : _b.basename) === destStripped) {
               leavesWithDestAlreadyOpen.push(leaf);
             }
           }
@@ -6553,31 +6563,88 @@ var require_utils2 = __commonJS({
         return fromTo;
     }
     exports.linkedQ = linkedQ;
-    var ChangelogModal = class extends obsidian_1.Modal {
-      constructor(app, plugin, url) {
+    function openView(app, viewType, viewClass, side = "right") {
+      return __async(this, null, function* () {
+        let leaf = null;
+        for (leaf of app.workspace.getLeavesOfType(viewType)) {
+          if (leaf.view instanceof viewClass) {
+            return;
+          }
+          yield leaf.setViewState({ type: "empty" });
+          break;
+        }
+        leaf = (leaf != null ? leaf : side === "right") ? app.workspace.getRightLeaf(false) : app.workspace.getLeftLeaf(false);
+        leaf.setViewState({
+          type: viewType,
+          active: true
+        });
+      });
+    }
+    exports.openView = openView;
+    function saveViewSide(app, plugin, viewType, settingName) {
+      return __async(this, null, function* () {
+        const leaf = app.workspace.getLeavesOfType(viewType)[0];
+        if (!leaf) {
+          console.info(`Obsidian-Community-Lib: No instance of '${viewType}' open, cannot save side`);
+          return;
+        }
+        const side = leaf.getRoot().side;
+        plugin.settings[settingName] = side;
+        yield plugin.saveSettings();
+        return side;
+      });
+    }
+    exports.saveViewSide = saveViewSide;
+    var RenderedMarkdownModal = class extends obsidian_1.Modal {
+      constructor(app, plugin, source, fetch) {
         super(app);
         this.plugin = plugin;
-        this.url = url;
+        this.source = source;
+        this.fetch = fetch;
       }
       onOpen() {
         return __async(this, null, function* () {
-          let { contentEl, url, plugin } = this;
-          const changelog = yield (0, obsidian_1.request)({ url });
-          const logDiv = contentEl.createDiv();
-          obsidian_1.MarkdownRenderer.renderMarkdown(changelog, logDiv, "", plugin);
+          let { contentEl, source, plugin, fetch } = this;
+          let content = source;
+          if (fetch) {
+            contentEl.createDiv({ text: `Waiting for content from: '${source}'` });
+            content = yield (0, obsidian_1.request)({ url: source });
+            contentEl.empty();
+          }
+          const logDiv = contentEl.createDiv({ cls: "OCL-RenderedMarkdownModal" });
+          obsidian_1.MarkdownRenderer.renderMarkdown(content, logDiv, "", plugin);
         });
       }
       onClose() {
         this.contentEl.empty();
       }
     };
-    exports.ChangelogModal = ChangelogModal;
-    function addChangelogButton(app, plugin, containerEl, url, displayText = "Changlog") {
+    exports.RenderedMarkdownModal = RenderedMarkdownModal;
+    function addRenderedMarkdownButton(app, plugin, containerEl, source, fetch, displayText) {
       containerEl.createEl("button", { text: displayText }, (but) => but.onClickEvent(() => {
-        new ChangelogModal(app, plugin, url).open();
+        new RenderedMarkdownModal(app, plugin, source, fetch).open();
       }));
     }
-    exports.addChangelogButton = addChangelogButton;
+    exports.addRenderedMarkdownButton = addRenderedMarkdownButton;
+    function resolvedLinksComplete(app, noFiles) {
+      const { resolvedLinks } = app.metadataCache;
+      return Object.keys(resolvedLinks).length === noFiles;
+    }
+    exports.resolvedLinksComplete = resolvedLinksComplete;
+    function waitForResolvedLinks(app, delay = 1e3, max = 50) {
+      return __async(this, null, function* () {
+        const noFiles = app.vault.getMarkdownFiles().length;
+        let i = 0;
+        while (!resolvedLinksComplete(app, noFiles) && i < max) {
+          yield wait2(delay);
+          i++;
+        }
+        if (i === max) {
+          throw Error("Obsidian-Community-Lib: ResolvedLinks did not finish initialising. `max` iterations was reached first.");
+        }
+      });
+    }
+    exports.waitForResolvedLinks = waitForResolvedLinks;
   }
 });
 
@@ -6586,7 +6653,7 @@ var require_dist3 = __commonJS({
   "node_modules/obsidian-community-lib/dist/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.ChangelogModal = exports.addChangelogButton = exports.linkedQ = exports.openOrSwitch = exports.createNewMDNote = exports.isInVault = exports.hoverPreview = exports.getSelectionFromEditor = exports.getSelectionFromCurrFile = exports.copy = exports.wait = exports.getAvailablePathForAttachments = exports.base64ToArrayBuffer = exports.addFeatherIcon = exports.addAllFeatherIcons = void 0;
+    exports.waitForResolvedLinks = exports.resolvedLinksComplete = exports.stripMD = exports.addMD = exports.saveViewSide = exports.openView = exports.RenderedMarkdownModal = exports.addRenderedMarkdownButton = exports.linkedQ = exports.openOrSwitch = exports.createNewMDNote = exports.isInVault = exports.hoverPreview = exports.getSelectionFromEditor = exports.getSelectionFromCurrFile = exports.copy = exports.wait = exports.getAvailablePathForAttachments = exports.base64ToArrayBuffer = exports.addFeatherIcon = exports.addAllFeatherIcons = void 0;
     var utils_1 = require_utils2();
     Object.defineProperty(exports, "addAllFeatherIcons", { enumerable: true, get: function() {
       return utils_1.addAllFeatherIcons;
@@ -6627,11 +6694,29 @@ var require_dist3 = __commonJS({
     Object.defineProperty(exports, "linkedQ", { enumerable: true, get: function() {
       return utils_1.linkedQ;
     } });
-    Object.defineProperty(exports, "addChangelogButton", { enumerable: true, get: function() {
-      return utils_1.addChangelogButton;
+    Object.defineProperty(exports, "addRenderedMarkdownButton", { enumerable: true, get: function() {
+      return utils_1.addRenderedMarkdownButton;
     } });
-    Object.defineProperty(exports, "ChangelogModal", { enumerable: true, get: function() {
-      return utils_1.ChangelogModal;
+    Object.defineProperty(exports, "RenderedMarkdownModal", { enumerable: true, get: function() {
+      return utils_1.RenderedMarkdownModal;
+    } });
+    Object.defineProperty(exports, "openView", { enumerable: true, get: function() {
+      return utils_1.openView;
+    } });
+    Object.defineProperty(exports, "saveViewSide", { enumerable: true, get: function() {
+      return utils_1.saveViewSide;
+    } });
+    Object.defineProperty(exports, "addMD", { enumerable: true, get: function() {
+      return utils_1.addMD;
+    } });
+    Object.defineProperty(exports, "stripMD", { enumerable: true, get: function() {
+      return utils_1.stripMD;
+    } });
+    Object.defineProperty(exports, "resolvedLinksComplete", { enumerable: true, get: function() {
+      return utils_1.resolvedLinksComplete;
+    } });
+    Object.defineProperty(exports, "waitForResolvedLinks", { enumerable: true, get: function() {
+      return utils_1.waitForResolvedLinks;
     } });
   }
 });
