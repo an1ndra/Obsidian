@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/LinkedList.md",
-            "mode": "preview"
+            "file": "Android/Android Library/Untitled.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/LinkedList.md",
+                "file": "Android/Android Library/Untitled.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,8 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Library/Untitled.md",
+    "Android/Android Library/1. Retrofit.md",
     "Android/Android Java/LinkedList.md",
     "Android/Android Java/Graph.md",
     "Android/Android Java/super.md",
@@ -114,8 +116,6 @@
     "Linux/Portainer.md",
     "Android/Android Java/Move one Activity to another Activity.md",
     "Android/Untitled.md",
-    "Android/Android Java/finalize().md",
-    "Android/Android Java/static.md",
-    "Android/Android Java/this.md"
+    "Android/Android Java/finalize().md"
   ]
 }
