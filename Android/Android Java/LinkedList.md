@@ -98,7 +98,7 @@ Let’s see how to perform some basics operations on the LinkedList.
  `}` 
 
 `}` 
-
+```
 **Output:** 
 
 [Geeks, For, Geeks]
@@ -107,7 +107,7 @@ Let’s see how to perform some basics operations on the LinkedList.
  
 
 -   Java
-
+```
 `// Java program to change elements` 
 
 `// in a LinkedList` 
@@ -190,7 +190,7 @@ Updated LinkedList [Geeks, For, Geeks]
  `}` 
 
 `}` 
-
+```
 **Output:** 
 
 Initial LinkedList [Geeks, For, Geeks]
@@ -204,7 +204,7 @@ After the Object Removal [Geeks]
   
 
 -   Java
-
+```
 `// Java program to iterate the elements` 
 
 `// in an LinkedList`
@@ -248,7 +248,7 @@ After the Object Removal [Geeks]
  `}` 
 
 `}` 
-
+```
 **Output:** 
 
 Geeks For Geeks 
