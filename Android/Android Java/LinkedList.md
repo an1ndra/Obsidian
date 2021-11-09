@@ -85,36 +85,29 @@ public class GFG {
 
 -   Java
 ```
-`// Java program to change elements` 
-
-`// in a LinkedList` 
-
-`import` `java.util.*;` 
-
-`public` `class` `GFG {` 
-
- `public` `static` `void` `main(String args[])` 
-
- `{` 
-
- `LinkedList<String> ll =` `new` `LinkedList<>();` 
-
- `ll.add(``"Geeks"``);` 
-
- `ll.add(``"Geeks"``);` 
-
- `ll.add(``1``,` `"Geeks"``);` 
-
- `System.out.println(``"Initial LinkedList "` `+ ll);` 
-
- `ll.set(``1``,` `"For"``);` 
-
- `System.out.println(``"Updated LinkedList "` `+ ll);` 
-
- `}` 
-
-`}` 
-
+// Java program to change elements
+// in a LinkedList
+	
+import java.util.*;
+	
+public class GFG {
+	
+	public static void main(String args[])
+	{
+		LinkedList<String> ll = new LinkedList<>();
+	
+		ll.add("Geeks");
+		ll.add("Geeks");
+		ll.add(1, "Geeks");
+	
+		System.out.println("Initial LinkedList " + ll);
+	
+		ll.set(1, "For");
+	
+		System.out.println("Updated LinkedList " + ll);
+	}
+}
+```
 **Output:** 
 
 Initial LinkedList [Geeks, Geeks, Geeks]
@@ -127,46 +120,36 @@ Updated LinkedList [Geeks, For, Geeks]
 -   **remove(int index):** Since a LinkedList is indexed, this method takes an integer value which simply removes the element present at that specific index in the LinkedList. After removing the element, all the elements are moved to the left to fill the space and the indices of the objects are updated.
 
 -   Java
-
-`// Java program to remove elements` 
-
-`// in a LinkedList`
-
-`import` `java.util.*;` 
-
-`public` `class` `GFG {` 
-
- `public` `static` `void` `main(String args[])` 
-
- `{` 
-
- `LinkedList<String> ll =` `new` `LinkedList<>();` 
-
- `ll.add(``"Geeks"``);` 
-
- `ll.add(``"Geeks"``);` 
-
- `ll.add(``1``,` `"For"``);` 
-
- `System.out.println(` 
-
- `"Initial LinkedList "` `+ ll);` 
-
- `ll.remove(``1``);` 
-
- `System.out.println(` 
-
- `"After the Index Removal "` `+ ll);` 
-
- `ll.remove(``"Geeks"``);` 
-
- `System.out.println(` 
-
- `"After the Object Removal "` `+ ll);` 
-
- `}` 
-
-`}` 
+```java
+// Java program to remove elements
+// in a LinkedList
+	
+import java.util.*;
+	
+public class GFG {
+	
+	public static void main(String args[])
+	{
+		LinkedList<String> ll = new LinkedList<>();
+	
+		ll.add("Geeks");
+		ll.add("Geeks");
+		ll.add(1, "For");
+	
+		System.out.println(
+			"Initial LinkedList " + ll);
+	
+		ll.remove(1);
+	
+		System.out.println(
+			"After the Index Removal " + ll);
+	
+		ll.remove("Geeks");
+	
+		System.out.println(
+			"After the Object Removal " + ll);
+	}
+}
 ```
 **Output:** 
 
@@ -175,14 +158,40 @@ After the Index Removal [Geeks, Geeks]
 After the Object Removal [Geeks]
 
 **4. Iterating the LinkedList:** There are multiple ways to iterate through the LinkedList. The most famous ways are by using the basic for loop in combination with a [get() method](https://www.geeksforgeeks.org/linkedlist-get-method-in-java/) to get the element at a specific index and the advanced for loop.  
- 
 
-  
-  
 
 -   Java
 ```java
-
+// Java program to iterate the elements
+// in an LinkedList
+	
+import java.util.*;
+	
+public class GFG {
+	
+	public static void main(String args[])
+	{
+		LinkedList<String> ll
+			= new LinkedList<>();
+	
+		ll.add("Geeks");
+		ll.add("Geeks");
+		ll.add(1, "For");
+	
+		// Using the Get method and the
+		// for loop
+		for (int i = 0; i < ll.size(); i++) {
+	
+			System.out.print(ll.get(i) + " ");
+		}
+	
+		System.out.println();
+	
+		// Using the for each loop
+		for (String str : ll)
+			System.out.print(str + " ");
+	}
+}
 ```
 **Output:** 
 
