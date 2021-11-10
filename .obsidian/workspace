@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/Untitled.md",
+            "file": "Android/Android Java/Change JAVA version in android studio.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/Untitled.md",
+                "file": "Android/Android Java/Change JAVA version in android studio.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
-    "Android/Android Java/Untitled.md",
+    "Android/Android Java/Change JAVA version in android studio.md",
     "Android/Connect android with firebase.md",
     "📔 To Do.md",
     "Postman/course-notes.md.md",
