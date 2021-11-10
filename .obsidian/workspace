@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/View Binding.md",
+            "file": "Android/Untitled.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/View Binding.md",
+                "file": "Android/Untitled.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Untitled.md",
     "Android/Android Java/View Binding.md",
     "📔 To Do.md",
     "Android/Android Java/Change JAVA version in android studio.md",
@@ -115,7 +116,6 @@
     "Android/Android Library/2. Picasso.md",
     "Android/Android Library/7. Moshi.md",
     "Android/Android Library/1. Retrofit.md",
-    "Android/Android Library/3. Glide.md",
-    "Android/Android Library/4. CAMViews.md"
+    "Android/Android Library/3. Glide.md"
   ]
 }
