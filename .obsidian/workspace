@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Untitled.md",
+            "file": "Android/OPT verification using firebase.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Untitled.md",
+                "file": "Android/OPT verification using firebase.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
-    "Android/Untitled.md",
+    "Android/OPT verification using firebase.md",
     "Android/Android Java/View Binding.md",
     "📔 To Do.md",
     "Android/Android Java/Change JAVA version in android studio.md",
