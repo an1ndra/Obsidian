@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "📔 To Do.md",
+            "file": "Android/Connect android with firebase.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📔 To Do.md",
+                "file": "Android/Connect android with firebase.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Connect android with firebase.md",
     "📔 To Do.md",
     "Postman/course-notes.md.md",
     "Android/Android Library/2. Picasso.md",
@@ -115,7 +116,6 @@
     "Android/Android Library/3. Glide.md",
     "Android/Android Library/4. CAMViews.md",
     "Android/Android Library/5. ExoPlayer.md",
-    "Android/Android Library/6. Room.md",
-    "Android/Android Java/LinkedList.md"
+    "Android/Android Library/6. Room.md"
   ]
 }
