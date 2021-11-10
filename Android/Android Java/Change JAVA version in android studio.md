@@ -1,1 +1,1 @@
-go to Project Structure => SDK Location => Gradle settings => Change Gradle 
+go to Project Structure => SDK Location => Gradle settings => Change Gradle SDK
