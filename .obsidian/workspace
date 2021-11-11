@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Studio Problems.md",
+            "file": "Android/Android Java/Move one Activity to another Activity.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Studio Problems.md",
+                "file": "Android/Android Java/Move one Activity to another Activity.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Java/Move one Activity to another Activity.md",
     "Android/Android Studio Problems.md",
     "Android/Connect android with firebase.md",
     "Android/OPT verification using firebase.md",
@@ -115,7 +116,6 @@
     "Android/Android Java/Change JAVA version in android studio.md",
     "Postman/course-notes.md.md",
     "Android/Android Library/2. Picasso.md",
-    "Android/Android Library/7. Moshi.md",
-    "Android/Android Library/1. Retrofit.md"
+    "Android/Android Library/7. Moshi.md"
   ]
 }
