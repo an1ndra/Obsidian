@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/Move one Activity to another Activity.md",
+            "file": "Android/Android Java/@override.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/Move one Activity to another Activity.md",
+                "file": "Android/Android Java/@override.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,15 +107,15 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Android/Android Java/@override.md",
+    "Android/Android Java/@Nullable.md",
+    "Android/Android Java/@NotNull.md",
     "Android/Android Java/Move one Activity to another Activity.md",
     "Android/Android Studio Problems.md",
     "Android/Connect android with firebase.md",
     "Android/OPT verification using firebase.md",
     "Android/Android Java/View Binding.md",
     "📔 To Do.md",
-    "Android/Android Java/Change JAVA version in android studio.md",
-    "Postman/course-notes.md.md",
-    "Android/Android Library/2. Picasso.md",
-    "Android/Android Library/7. Moshi.md"
+    "Android/Android Java/Change JAVA version in android studio.md"
   ]
 }
