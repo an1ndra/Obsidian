@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Android/Android Java/@NotNull.md",
+            "file": "Linux/Problems & solutions.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "resolv.conf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +56,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Java/@NotNull.md",
+                "file": "Linux/Problems & solutions.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,6 +108,7 @@
   },
   "active": "6e1fc43bc78af068",
   "lastOpenFiles": [
+    "Linux/Problems & solutions.md",
     "Android/Android Java/@NotNull.md",
     "Android/Android Java/getItemViewType.md",
     "Android/Android Java/finalize().md",
@@ -115,7 +117,6 @@
     "Android/Android Java/ArrayList.md",
     "Android/Android Java/android.content.ClipData.md",
     "Android/Android Java/Adapter.md",
-    "Hostel Talk.md",
-    "Android/Android Java/Constructor.md"
+    "Hostel Talk.md"
   ]
 }
