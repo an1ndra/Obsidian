@@ -16,3 +16,7 @@ JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 ```bash
 sudo apt install gdm3 pop-desktop; sudo systemctl enable --now gdm3
 ```
+5. Install MS Time Font
+```bash
+https://github.com/pop-os/pop/issues/1321
+```
